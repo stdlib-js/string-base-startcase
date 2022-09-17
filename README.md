@@ -37,7 +37,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import startcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-startcase@esm/index.mjs';
+import startcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-startcase@v0.0.2-esm/index.mjs';
 ```
 
 #### startcase( str )
@@ -65,7 +65,7 @@ var str = startcase( 'beep boop a foo bar' );
 <body>
 <script type="module">
 
-import startcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-startcase@esm/index.mjs';
+import startcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-startcase@v0.0.2-esm/index.mjs';
 
 var str = startcase( 'beep boop foo bar' );
 // returns 'Beep Boop Foo Bar'
