@@ -30,14 +30,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/string-base-startcase
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import startcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-startcase@esm/index.mjs';
+var startcase = require( '@stdlib/string-base-startcase' );
 ```
 
 #### startcase( str )
@@ -59,13 +75,8 @@ var str = startcase( 'beep boop a foo bar' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import startcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-startcase@esm/index.mjs';
+```javascript
+var startcase = require( '@stdlib/string-base-startcase' );
 
 var str = startcase( 'beep boop foo bar' );
 // returns 'Beep Boop Foo Bar'
@@ -81,10 +92,6 @@ str = startcase( '$**_beep_BoOp_**$' );
 
 str = startcase( '' );
 // returns ''
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -108,7 +115,7 @@ str = startcase( '' );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -125,7 +132,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
