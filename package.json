@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-startcase",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Capitalize the first letter of each word in a string.",
   "license": "Apache-2.0",
   "author": {
@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/regexp-whitespace": "^0.1.0"
+    "@stdlib/regexp-whitespace": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-string": "^0.1.0",
