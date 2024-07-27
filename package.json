@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-startcase",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Capitalize the first letter of each word in a string.",
   "license": "Apache-2.0",
   "author": {
