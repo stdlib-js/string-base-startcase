@@ -115,6 +115,14 @@ str = startcase( '' );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/string-base/capitalize`][@stdlib/string/base/capitalize]</span><span class="delimiter">: </span><span class="description">capitalize the first character in a string.</span>
+-   <span class="package-name">[`@stdlib/string-base/lowercase`][@stdlib/string/base/lowercase]</span><span class="delimiter">: </span><span class="description">convert a string to lowercase.</span>
+-   <span class="package-name">[`@stdlib/string-base/uppercase`][@stdlib/string/base/uppercase]</span><span class="delimiter">: </span><span class="description">convert a string to uppercase.</span>
+
 </section>
 
 <!-- /.related -->
@@ -190,6 +198,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/string-base-startcase/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-base-startcase/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/string/base/capitalize]: https://github.com/stdlib-js/string-base-capitalize
+
+[@stdlib/string/base/lowercase]: https://github.com/stdlib-js/string-base-lowercase
+
+[@stdlib/string/base/uppercase]: https://github.com/stdlib-js/string-base-uppercase
+
+<!-- </related-links> -->
 
 </section>
 
