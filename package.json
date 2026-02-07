@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-startcase",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Capitalize the first letter of each word in a string.",
   "license": "Apache-2.0",
   "author": {
@@ -40,7 +40,7 @@
     "@stdlib/regexp-whitespace": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-string": "^0.2.2",
+    "@stdlib/assert-is-string": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
