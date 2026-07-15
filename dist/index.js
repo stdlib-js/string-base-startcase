@@ -1,5 +1,5 @@
-"use strict";var c=function(t,e){return function(){return e||t((e={exports:{}}).exports,e),e.exports}};var u=c(function(n,i){
-var o=require('@stdlib/regexp-whitespace/dist').REGEXP;function p(t){var e,s,r,a;for(e=!0,s="",a=0;a<t.length;a++)r=t.charAt(a),o.test(r)?e=!0:e&&(r=r.toUpperCase(),e=!1),s+=r;return s}i.exports=p
+"use strict";var c=function(a,e){return function(){try{return e||a((e={exports:{}}).exports,e),e.exports}catch(r){throw (e=0, r)}};};var u=c(function(n,i){
+var o=require('@stdlib/regexp-whitespace/dist').REGEXP;function p(a){var e,r,t,s;for(e=!0,r="",s=0;s<a.length;s++)t=a.charAt(s),o.test(t)?e=!0:e&&(t=t.toUpperCase(),e=!1),r+=t;return r}i.exports=p
 });var v=u();module.exports=v;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
